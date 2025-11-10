@@ -42,7 +42,7 @@
     sudo systemctl reload nginx
     ```
 
-5. Abrir el navegador y comprobar `[http://localhost/index.php](http://localhost/index.php)`.
+5. Abrir el navegador y comprobar `http://localhost/index.php`.
 
 ---
 
@@ -81,6 +81,6 @@ Para realizar este despligue hemos utilizado nuestras cuentas institucionales de
 
     az webapp deploy --resource-group "practica2-rg" --name "practica2-DII-dani-ruben" --src-path ./webapp.zip
    ```
-5. Abrir el navegador y comprobar `[http://localhost/index.php](https://practica2-dii-dani-ruben.azurewebsites.net/index.php)`.
+5. Abrir el navegador y comprobar `https://practica2-dii-dani-ruben.azurewebsites.net/index.php`.
 
 
