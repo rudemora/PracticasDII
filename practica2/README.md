@@ -44,6 +44,8 @@
 
 5. Abrir el navegador y comprobar `http://localhost/index.php`.
 
+
+
 ---
 
 ## Despliegue en Azure
