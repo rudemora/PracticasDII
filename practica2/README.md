@@ -71,8 +71,8 @@ Para realizar este despligue hemos utilizado nuestras cuentas institucionales de
    ```
 5. Creación del App Service.
    ``` bash
-az webapp config appsettings set --resource-group "practica2-rg" --name "practica2-DII-dani-ruben" --settings DB_HOST="$DBHOST" DB_NAME="webdb" DB_USER="webuser@practica2-dii-dani-ruben-sql.mysql.database.azure.com" DB_PASS="Password123!"
-    ```
+    az webapp config appsettings set --resource-group "practica2-rg" --name "practica2-DII-dani-ruben" --settings DB_HOST="$DBHOST" DB_NAME="webdb" DB_USER="webuser@practica2-dii-dani-ruben-sql.mysql.database.azure.com" DB_PASS="Password123!"
+   ```
 
 6. Empaquetar y desplegar la aplicación.
 
